@@ -192,3 +192,30 @@ main > section {
   height: 100%;
   border-radius: 16px;
 }
+
+/* footer section styles  */
+#footer {
+  margin-top: 80px;
+  padding: 35.5px 0;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.03);
+}
+
+#footer .footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  gap: 20px;
+}
+#footer .footer-container .footer-title {
+  color: rgb(13, 19, 33);
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 25.5px;
+}
+#footer .footer-container > ul {
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  gap: 30px;
+}
