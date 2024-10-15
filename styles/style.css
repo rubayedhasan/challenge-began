@@ -159,6 +159,14 @@ main > section {
   align-items: center;
   gap: 53px;
 }
+#selection-development .reverse-row {
+  flex-direction: row-reverse;
+  background: linear-gradient(
+    270deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+}
 
 #selection-development .select-reason-card .card-title {
   color: rgba(13, 19, 33, 0.7);
