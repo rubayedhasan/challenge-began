@@ -203,10 +203,13 @@ main > section {
 
 #current-target .skill-cards .skill {
   width: 320px;
-  /* height: 245px; */
   padding: 44.4px;
   border-radius: 16px;
   background: rgba(255, 76, 30, 0.05);
+}
+
+.bg-skyblue {
+  background: rgba(0, 76, 232, 0.05) !important;
 }
 
 #current-target .skill-cards .skill .card-title {
