@@ -60,6 +60,22 @@ body {
   margin-bottom: 53px;
 }
 
+.card-title {
+  color: rgba(13, 19, 33, 0.7);
+  font-size: 26.5px;
+  font-weight: 700;
+  line-height: 40px;
+  margin-bottom: 17.5px;
+}
+
+.card-btn {
+  color: rgb(13, 19, 33);
+  font-size: 17.5px;
+  font-weight: 700;
+  line-height: 21px;
+  text-decoration: underline;
+}
+
 /* header section styles  */
 header {
   padding-top: 55.5px;
@@ -168,14 +184,6 @@ main > section {
   );
 }
 
-#selection-development .select-reason-card .card-title {
-  color: rgba(13, 19, 33, 0.7);
-  font-size: 26.5px;
-  font-weight: 700;
-  line-height: 40px;
-  margin-bottom: 17.5px;
-}
-
 #selection-development .select-reason-card .section-description {
   margin-bottom: 35.5px;
 }
@@ -222,12 +230,24 @@ main > section {
   margin-bottom: 26.5px;
 }
 
-#current-target .skill-cards .skill .card-btn {
-  color: rgb(13, 19, 33);
-  font-size: 17.5px;
-  font-weight: 700;
-  line-height: 21px;
-  text-decoration: underline;
+/* next target section styles  */
+#next-target .skill {
+  display: flex;
+  padding: 44.5px;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  gap: 30px;
+  align-items: center;
+  margin-bottom: 26.5px;
+}
+
+#next-target .card-content .card-title {
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+#next-target .card-content .section-description {
+  margin-bottom: 28.5px;
 }
 
 /* newsletter section styles  */
